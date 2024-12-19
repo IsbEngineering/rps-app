@@ -8,37 +8,6 @@ const MyComponent: React.FC = () => {
       height: '1194px',
       backgroundColor: '#FFFFFF'
     }}>
-      {/* 시작하기 */}
-      <div style={{
-        position: 'absolute',
-        width: '382px',
-        height: '79px',
-        fontFamily: 'Inter',
-        fontStyle: 'normal',
-        fontWeight: 400,
-        fontSize: '44px',
-        lineHeight: '53px',
-        textAlign: 'center',
-        color: '#FFFFFF'
-      }}>
-        시작하기
-      </div>
-
-      {/* 시작하기 */}
-      <div style={{
-        position: 'absolute',
-        width: '228px',
-        height: '60px',
-        fontFamily: 'Inter',
-        fontStyle: 'normal',
-        fontWeight: 400,
-        fontSize: '50px',
-        lineHeight: '61px',
-        textAlign: 'center',
-        color: '#FFFFFF'
-      }}>
-        시작하기
-      </div>
 
       {/* Rectangle 20 */}
       <div style={{
@@ -53,6 +22,7 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '324px',
         height: '282px',
+        
         backgroundImage: 'url(6836871.png)',
         backgroundSize: 'cover'
       }} />
@@ -68,10 +38,12 @@ const MyComponent: React.FC = () => {
         fontSize: '33px',
         lineHeight: '44px',
         textAlign: 'center',
+        top: '450px',
+        left: '130px',
         letterSpacing: '-0.025em',
         color: '#FFFFFF'
       }}>
-        안녕하세요. 공학동아리입니다.
+        안녕하세요 공학동아리입니다.
       </div>
 
       {/* 어릴적 즐겨왔던 가위바위보 게임 기억하시나요? */}
@@ -82,9 +54,11 @@ const MyComponent: React.FC = () => {
         fontFamily: 'Palanquin Dark',
         fontStyle: 'normal',
         fontWeight: 400,
-        fontSize: '25px',
+        fontSize: '22px',
         lineHeight: '44px',
         textAlign: 'center',
+        top: '500px',
+        left: '176px',
         letterSpacing: '-0.025em',
         color: '#FFFFFF'
       }}>
@@ -96,6 +70,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '56px',
         height: '31px',
+        top: '560px',
+        left: '340px',
         backgroundColor: '#92ADFF',
         borderRadius: '22px'
       }} />
@@ -105,6 +81,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '40px',
         height: '31px',
+        top: '560px',
+        left: '410px',
         backgroundColor: '#FFFAFA',
         borderRadius: '22px'
       }} />
@@ -114,6 +92,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '40px',
         height: '31px',
+        top: '560px',
+        left: '460px',
         backgroundColor: '#FFFAFA',
         borderRadius: '22px'
       }} />

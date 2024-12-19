@@ -69,6 +69,8 @@ const MyComponent: React.FC = () => {
         fontSize: '33px',
         lineHeight: '44px',
         textAlign: 'center',
+        top: '480px',
+        left: '140px',
         letterSpacing: '-0.025em',
         color: '#FFFFFF'
       }}>
@@ -80,6 +82,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '56px',
         height: '31px',
+        top: '540px',
+        left: '280px',
         backgroundColor: '#92ADFF',
         borderRadius: '22px'
       }} />
@@ -89,6 +93,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '40px',
         height: '31px',
+        top: '540px',
+        left: '350px',
         backgroundColor: '#FFFAFA',
         borderRadius: '22px'
       }} />
@@ -98,6 +104,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '40px',
         height: '31px',
+        top: '540px',
+        left: '405px',
         backgroundColor: '#FFFAFA',
         borderRadius: '22px'
       }} />
@@ -105,8 +113,10 @@ const MyComponent: React.FC = () => {
       {/* Rectangle 27 */}
       <div style={{
         position: 'absolute',
-        width: '341px',
-        height: '93px',
+        width: '300px',
+        height: '80px',
+        top: '600px',
+        left: '210px',
         backgroundColor: '#92ADFF',
         borderRadius: '33px'
       }} />
@@ -121,6 +131,8 @@ const MyComponent: React.FC = () => {
         fontWeight: 400,
         fontSize: '33px',
         lineHeight: '44px',
+        top: '600px',
+        left: '210px',
         display: 'flex',
         alignItems: 'center',
         textAlign: 'center',

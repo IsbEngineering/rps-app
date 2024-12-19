@@ -33,6 +33,7 @@ const MyComponent: React.FC = () => {
         fontStyle: 'normal',
         fontWeight: 400,
         fontSize: '50px',
+        top: '250px',
         lineHeight: '61px',
         textAlign: 'center',
         color: '#FFFFFF'
@@ -63,12 +64,14 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '514px',
         height: '82px',
-        fontFamily: 'Abel',
+        fontFamily: 'Passion One',
         fontStyle: 'normal',
         fontWeight: 400,
-        fontSize: '33px',
+        fontSize: '32px',
         lineHeight: '44px',
         textAlign: 'center',
+        top: '450px',
+        left: '135px',
         letterSpacing: '-0.025em',
         color: '#FFFFFF'
       }}>
@@ -80,6 +83,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '56px',
         height: '31px',
+        top: '560px',
+        left: '340px',
         backgroundColor: '#92ADFF',
         borderRadius: '22px'
       }} />
@@ -89,6 +94,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '40px',
         height: '31px',
+        top: '560px',
+        left: '410px',
         backgroundColor: '#FFFAFA',
         borderRadius: '22px'
       }} />
@@ -98,6 +105,8 @@ const MyComponent: React.FC = () => {
         position: 'absolute',
         width: '40px',
         height: '31px',
+        top: '560px',
+        left: '460px',
         backgroundColor: '#FFFAFA',
         borderRadius: '22px'
       }} />
@@ -105,8 +114,10 @@ const MyComponent: React.FC = () => {
       {/* Rectangle 27 */}
       <div style={{
         position: 'absolute',
-        width: '341px',
-        height: '93px',
+        width: '320px',
+        height: '60px',
+        top: '510px',
+        left: '225px',
         backgroundColor: '#92ADFF',
         borderRadius: '33px'
       }} />
@@ -124,6 +135,8 @@ const MyComponent: React.FC = () => {
         display: 'flex',
         alignItems: 'center',
         textAlign: 'center',
+        top: '505px',
+        left: '320px',
         letterSpacing: '-0.025em',
         color: '#FFFFFF'
       }}>
